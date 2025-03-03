@@ -25,26 +25,28 @@ export default function Footer() {
               </Link>
               <div className="mt-4 flex space-x-6">
                 <Link
-                  href="#"
-                  className="text-muted-foreground hover:text-secondary transition-colors"
-                >
-                  <span className="sr-only">Facebook</span>
-                  <Facebook className="h-6 w-6" />
-                </Link>
-                <Link
-                  href="#"
+                  target="_blank"
+                  href="https://www.instagram.com/peresnet/"
                   className="text-muted-foreground hover:text-secondary transition-colors"
                 >
                   <span className="sr-only">Instagram</span>
                   <Instagram className="h-6 w-6" />
                 </Link>
                 <Link
-                  href="#"
+                  target="_blank"
+                  href="https://www.linkedin.com/company/peresnet/"
                   className="text-muted-foreground hover:text-secondary transition-colors"
                 >
                   <span className="sr-only">LinkedIn</span>
                   <Linkedin className="h-6 w-6" />
                 </Link>
+                {/*<Link
+                  href="#"
+                  className="text-muted-foreground hover:text-secondary transition-colors"
+                >
+                  <span className="sr-only">Facebook</span>
+                  <Facebook className="h-6 w-6" />
+                </Link>*/}
               </div>
             </div>
             <div>
@@ -52,18 +54,18 @@ export default function Footer() {
                 Contato
               </h3>
               <ul className="mt-4 space-y-4">
-                <li className="flex items-start">
+                {/* <li className="flex items-start">
                   <MapPin className="h-5 w-5 text-secondary mr-2 mt-0.5" />
                   <span className="text-base text-muted-foreground">
                     Av. Principal, 1234, Centro
                     <br />
                     Cuiabá, MT
                   </span>
-                </li>
+                </li> */}
                 <li className="flex items-center">
                   <Phone className="h-5 w-5 text-secondary mr-2" />
                   <span className="text-base text-muted-foreground">
-                    (65) 3333-4444
+                    (65) 99338-1830
                   </span>
                 </li>
                 <li className="flex items-center">
