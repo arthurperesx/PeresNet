@@ -59,7 +59,7 @@ export default function Hero() {
           >
             <a 
             target="_blank"
-            href="https://wa.me/5565993381830?text=Ol%C3%A1%2C%20vim%20do%20site%20da%20PiresNet%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20oferecidos.%20Pode%20me%20passar%20mais%20informa%C3%A7%C3%B5es%3F">
+            href="https://wa.me/5565993381830?text=Ol%C3%A1%2C%20vim%20do%20site%20da%20PeresNet%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20oferecidos.%20Pode%20me%20passar%20mais%20informa%C3%A7%C3%B5es%3F">
               <Button
                 size="lg"
                 className="w-full sm:w-auto bg-secondary hover:bg-secondary/90 text-white"
