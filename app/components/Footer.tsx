@@ -71,7 +71,7 @@ export default function Footer() {
                 <li className="flex items-center">
                   <Mail className="h-5 w-5 text-secondary mr-2" />
                   <span className="text-base text-muted-foreground">
-                    contato@peresnet.com.br
+                    arthur@peresnet.com.br
                   </span>
                 </li>
               </ul>
