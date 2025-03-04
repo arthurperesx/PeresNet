@@ -40,13 +40,14 @@ export default function Footer() {
                   <span className="sr-only">LinkedIn</span>
                   <Linkedin className="h-6 w-6" />
                 </Link>
-                {/*<Link
-                  href="#"
+                *<Link
+                  target="_blank"
+                  href="https://www.facebook.com/profile.php?id=61574039690806"
                   className="text-muted-foreground hover:text-secondary transition-colors"
                 >
                   <span className="sr-only">Facebook</span>
                   <Facebook className="h-6 w-6" />
-                </Link>*/}
+                </Link>
               </div>
             </div>
             <div>
