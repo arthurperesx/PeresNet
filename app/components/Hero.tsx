@@ -88,8 +88,8 @@ export default function Hero() {
               transition={{ type: "spring", stiffness: 300 }}
             >
               <img
-                src="/intune.png"
-                alt="Microsoft Intune"
+                src="/fortinet.png"
+                alt="Fortinet"
                 className="h-16 object-contain"
               />
             </motion.div>
@@ -110,8 +110,8 @@ export default function Hero() {
               transition={{ type: "spring", stiffness: 300 }}
             >
               <img
-                src="/entra.png"
-                alt="Microsoft Entra ID"
+                src="/kaspersky.png"
+                alt="Kaspersky"
                 className="h-16 object-contain"
               />
             </motion.div>
