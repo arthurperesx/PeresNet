@@ -68,7 +68,7 @@ export default function Footer() {
                 </li>
                 <li className="flex justify-center">
                   <Link href="https://locator.kaspersky.com/b2c/?locale=br&filter_UF_COUNTRY=a0Ea000000GlK71EAF&filter_UF_STATE=a0Ra000000AMx8FEAT&filter_ADDRESS=&filter_ADDRESS_S=&filter_ADDRESS_W=&filter_ADDRESS_N=&filter_ADDRESS_E=&filter_UF_ACCOUNTNAME=peresnet&set_filter=Pesquisar" target="_blank">
-                    <Image src="/kasperskypartner.png" alt="Kaspersky Partner" width={120} height={60} />
+                    <Image src="/Kasperskypartner.png" alt="Kaspersky Partner" width={120} height={60} />
                   </Link>
                 </li>
               </ul>
