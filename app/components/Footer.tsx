@@ -50,6 +50,31 @@ export default function Footer() {
                 </Link>
               </div>
             </div>
+
+                        <div className="text-center">
+              <h3 className="text-sm font-semibold text-foreground tracking-wider uppercase">
+                Parceiros
+              </h3>
+              <ul className="mt-4 grid grid-cols-2 md:grid-cols-3 gap-4 justify-center items-center">
+                <li className="flex justify-center">
+                  <Link href="https://www.fortinet.com/" target="_blank">
+                    <Image src="/fortinetpartner.png" alt="Fortinet Partner" width={120} height={60} />
+                  </Link>
+                </li>
+                <li className="flex justify-center">
+                  <Link href="https://partner.microsoft.com/" target="_blank">
+                    <Image src="/microsoft.webp" alt="Microsoft Partner" width={120} height={60} />
+                  </Link>
+                </li>
+                <li className="flex justify-center">
+                  <Link href="https://locator.kaspersky.com/b2c/?locale=br&filter_UF_COUNTRY=a0Ea000000GlK71EAF&filter_UF_STATE=a0Ra000000AMx8FEAT&filter_ADDRESS=&filter_ADDRESS_S=&filter_ADDRESS_W=&filter_ADDRESS_N=&filter_ADDRESS_E=&filter_UF_ACCOUNTNAME=peresnet&set_filter=Pesquisar" target="_blank">
+                    <Image src="/kasperskypartner.png" alt="Kaspersky Partner" width={120} height={60} />
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
+
             <div>
               <h3 className="text-sm font-semibold text-foreground tracking-wider uppercase">
                 Contato
