@@ -11,8 +11,8 @@ const features = [
     icon: FileText,
   },
   {
-    name: "Microsoft Intune",
-    description: "Gerenciamento de segurança e conformidade para todos os dispositivos da sua organização.",
+    name: "Planos de Segurança",
+    description: "Aproveite uma experiência de Internet segura e privada sem comprometer o desempenho do seu computador e dispositivos móveis.",
     icon: Shield,
   },
   {
