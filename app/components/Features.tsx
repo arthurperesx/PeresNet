@@ -1,6 +1,6 @@
 "use client"
 
-import { FileText, Shield, Laptop, Database, FileStack, Users } from "lucide-react"
+import { FileText, Shield, Laptop, Database, Radar, Users } from "lucide-react"
 import { motion } from "framer-motion"
 import { useState, useEffect } from "react"
 
@@ -11,28 +11,28 @@ const features = [
     icon: FileText,
   },
   {
-    name: "Planos de Segurança",
-    description: "Aproveite uma experiência de Internet segura e privada sem comprometer o desempenho do seu computador e dispositivos móveis.",
+    name: "Segurança Cibernética",
+    description: "Proteja sua rede, endpoints e dados contra ameaças cibernéticas com soluções líderes de firewall, antivírus e proteção em tempo real.",
     icon: Shield,
   },
   {
     name: "Gestão de Dispositivos",
-    description: "Administração eficiente de notebooks, smartphones iOS e Android em ambiente corporativo.",
+    description: "Gerencie notebooks, smartphones (iOS e Android) e outros dispositivos de forma centralizada e segura, garantindo maior controle e eficiência.",
     icon: Laptop,
   },
   {
     name: "Migração de Dados",
-    description: "Transferência segura e eficiente de seus dados para o ambiente Microsoft 365.",
+    description: "Realize transferências seguras e eficientes para o ambiente Microsoft 365, minimizando riscos e maximizando a continuidade dos negócios.",
     icon: Database,
   },
   {
-    name: "SharePoint",
-    description: "Implementação e configuração de soluções de colaboração e gestão documental.",
-    icon: FileStack,
+    name: "Monitoramento e Proteção de Redes",
+    description: "Garanta a segurança da sua infraestrutura de TI com soluções avançadas de firewall, detecção de ameaças e monitoramento contínuo para prevenção de ataques cibernéticos.",
+    icon: Radar,
   },
   {
     name: "Usuários e Permissões",
-    description: "Configuração e gerenciamento de usuários, grupos e níveis de acesso personalizados.",
+    description: "Defina permissões, políticas de acesso e níveis de segurança personalizados para proteger informações e garantir conformidade.",
     icon: Users,
   },
 ]

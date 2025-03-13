@@ -9,12 +9,12 @@ const serviceCategories = [
     name: "Gestão e Suporte de TI",
     services: [
       {
-        title: "ITSM – Gestão de Chamados",
+        title: "Monitoramento e Gerenciamento de TI",
         features: [
-          "Sistema de chamados personalizado para sua empresa",
-          "Automação de processos para respostas mais rápidas",
-          "Relatórios detalhados de SLAs e desempenho da equipe",
-          "Integração com Microsoft 365 (Teams, Outlook, etc.)",
+          "Monitoramento proativo de servidores e redes para evitar falhas",
+          "Gerenciamento de backups e recuperação de desastres",
+          "Relatórios detalhados de desempenho e disponibilidade",
+          "Integração com Microsoft 365 e soluções de segurança",
         ],
       },
       {
@@ -22,7 +22,7 @@ const serviceCategories = [
         features: [
           "Atendimento imediato para falhas e dúvidas",
           "Monitoramento e manutenção preventiva",
-          "Configuração e suporte a Microsoft 365",
+          "Suporte e configuração para Microsoft 365 e soluções de segurança",
           "Aplicação de políticas de segurança e otimização",
         ],
       },
@@ -32,19 +32,21 @@ const serviceCategories = [
     name: "Infraestrutura e Segurança",
     services: [
       {
-        title: "Consultoria em Servidores e Active Directory",
+        title: "Consultoria em Servidores",
         features: [
           "Otimização e integração com Microsoft 365",
-          "Segurança e conformidade (controle de acessos, auditoria)",
-          "Gerenciamento centralizado de usuários e dispositivos",
+          "Segurança e conformidade com gestão de acessos e auditoria",
+          "Administração centralizada de usuários e dispositivos",
+          "Implementação de Firewall Fortinet e soluções de proteção avançada.",
         ],
       },
       {
-        title: "Gerenciamento de Dispositivos (MDM) e Aplicativos (MAM)",
+        title: "Gerenciamento de Dispositivos",
         features: [
           "Controle e segurança de dispositivos corporativos e BYOD",
-          "Aplicação de políticas de conformidade e restrições de acesso",
-          "Proteção de dados empresariais em dispositivos pessoais",
+          "Aplicação de políticas de conformidade e restrição de acessos",
+          "Proteção de dados empresariais em dispositivos pessoais e corporativos",
+          "Monitoramento contínuo e resposta proativa a ameaças cibernéticas",
         ],
       },
     ],
@@ -53,19 +55,21 @@ const serviceCategories = [
     name: "Soluções Microsoft 365",
     services: [
       {
-        title: "Migração para Microsoft 365",
+        title: "Migração e Gestão para Microsoft 365",
         features: [
           "Transferência segura de e-mails, arquivos e usuários",
-          "Configuração de contas e políticas de segurança",
+          "Configuração de permissões e políticas de segurança personalizadas",
           "Suporte especializado para garantir máxima produtividade",
+          "Integração do Microsoft 365 com outras soluções empresariais",
         ],
       },
       {
         title: "Licenciamento Microsoft 365",
         features: [
-          "Consultoria para escolha do plano ideal",
-          "Acesso às principais ferramentas (Teams, Outlook, SharePoint, etc.)",
-          "Suporte especializado para implementação e uso",
+          "Escolha do plano ideal de Microsoft 365 para sua empresa",
+          "Acesso a Teams, Outlook e SharePoint",
+          "Implementação e suporte contínuo para uso eficiente da solução",
+          "Treinamento para equipes sobre boas práticas e segurança digital",
         ],
       },
     ],
