@@ -110,7 +110,7 @@ export default function Hero() {
               transition={{ type: "spring", stiffness: 300 }}
             >
               <img
-                src="/acronis.png"
+                src="/Acronis.png"
                 alt="Acronis Partner"
                 className="h-16 object-contain"
               />
