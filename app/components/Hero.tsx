@@ -76,12 +76,23 @@ export default function Hero() {
           </motion.div>
 
           <motion.div
-            className="md:mt-24 mt-8 mb-8 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl mx-auto"
+            className="md:mt-24 mt-8 mb-8 grid grid-cols-1 sm:grid-cols-4 gap-6 max-w-4xl mx-auto"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1.0, duration: 0.8 }}
           >
             {" "}
+            <motion.div
+              className="bg-white backdrop-blur-sm p-6 rounded-xl shadow-lg flex items-center justify-center h-32"
+              whileHover={{ scale: 1.05 }}
+              transition={{ type: "spring", stiffness: 300 }}
+            >
+              <img
+                src="/Microsoft365.png"
+                alt="Microsoft Partner"
+                className="h-16 object-contain"
+              />
+            </motion.div>
             <motion.div
               className="bg-white backdrop-blur-sm p-6 rounded-xl shadow-lg flex items-center justify-center h-32"
               whileHover={{ scale: 1.05 }}
@@ -99,8 +110,8 @@ export default function Hero() {
               transition={{ type: "spring", stiffness: 300 }}
             >
               <img
-                src="/Microsoft365.png"
-                alt="Microsoft Partner"
+                src="/acronis.png"
+                alt="Acronis Partner"
                 className="h-16 object-contain"
               />
             </motion.div>
