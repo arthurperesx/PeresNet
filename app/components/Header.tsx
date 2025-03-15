@@ -30,11 +30,16 @@ export default function Header() {
           <div>
             <nav className="scroll-smooth hidden md:flex space-x-10">
               <Link
-                href="#features"
-                className="scroll-smooth text-base font-medium text-muted-foreground hover:text-foreground transition-colors"
-              >
-                Soluções
-              </Link>
+              href="#"
+              onClick={(e) => {
+                e.preventDefault();
+                document.getElementById("features")?.scrollIntoView({ behavior: "smooth" });
+              }}
+              className="text-base font-medium text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Soluções
+            </Link>
+              
               {/* <Link
                 href="#testimonials"
                 className="scroll-smooth text-base font-medium text-muted-foreground hover:text-foreground transition-colors"
@@ -42,7 +47,11 @@ export default function Header() {
                 Depoimentos
               </Link> */}
               <Link
-                href="#services"
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.getElementById("services")?.scrollIntoView({ behavior: "smooth" });
+                }}
                 className="scroll-smooth text-base font-medium text-muted-foreground hover:text-foreground transition-colors"
               >
                 Serviços

@@ -52,15 +52,6 @@ export default function Features() {
     <div className="py-24 bg-muted relative overflow-hidden" id="features">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="lg:text-center">
-          <motion.h2
-            className="text-base text-secondary font-semibold tracking-wide uppercase"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            viewport={{ once: true }}
-          >
-            Soluções
-          </motion.h2>
           <motion.p
             className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-foreground sm:text-4xl"
             initial={{ opacity: 0, y: 20 }}
