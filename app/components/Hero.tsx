@@ -99,17 +99,6 @@ export default function Hero() {
               transition={{ type: "spring", stiffness: 300 }}
             >
               <img
-                src="/fortinet.png"
-                alt="Fortinet"
-                className="h-16 object-contain"
-              />
-            </motion.div>
-            <motion.div
-              className="bg-white backdrop-blur-sm p-6 rounded-xl shadow-lg flex items-center justify-center h-32"
-              whileHover={{ scale: 1.05 }}
-              transition={{ type: "spring", stiffness: 300 }}
-            >
-              <img
                 src="/Acronis.png"
                 alt="Acronis Partner"
                 className="h-16 object-contain"
@@ -123,6 +112,17 @@ export default function Hero() {
               <img
                 src="/kaspersky.png"
                 alt="Kaspersky"
+                className="h-16 object-contain"
+              />
+            </motion.div>
+            <motion.div
+              className="bg-white backdrop-blur-sm p-6 rounded-xl shadow-lg flex items-center justify-center h-32"
+              whileHover={{ scale: 1.05 }}
+              transition={{ type: "spring", stiffness: 300 }}
+            >
+              <img
+                src="/fortinet.png"
+                alt="Fortinet"
                 className="h-16 object-contain"
               />
             </motion.div>
