@@ -49,7 +49,45 @@ export default function Features() {
   }, [])
 
   return (
-    <div className="py-24 bg-muted relative overflow-hidden" id="features">
+    <div className="py-24 bg-background relative overflow-hidden" id="features">
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <motion.div
+          className="absolute -top-1/3 -right-1/4 h-96 w-96 rounded-full bg-primary/5"
+          initial={{ scale: 1, rotate: 0 }}
+          animate={{
+            scale: animationComplete ? 1.12 : [1, 1.12, 1.12],
+            rotate: animationComplete ? 35 : [0, 35, 35],
+          }}
+          transition={{
+            duration: 2,
+            ease: "easeOut",
+          }}
+        />
+        <motion.div
+          className="absolute -bottom-1/4 -left-1/4 h-80 w-80 rounded-full bg-secondary/10"
+          initial={{ scale: 1, rotate: 0 }}
+          animate={{
+            scale: animationComplete ? 1.18 : [1, 1.18, 1.18],
+            rotate: animationComplete ? -45 : [0, -45, -45],
+          }}
+          transition={{
+            duration: 2,
+            ease: "easeOut",
+          }}
+        />
+        <motion.div
+          className="absolute bottom-16 right-16 h-12 w-12 rounded-full bg-accent/10"
+          initial={{ y: 0, x: 0 }}
+          animate={{
+            y: animationComplete ? -18 : [0, -18, -18],
+            x: animationComplete ? 18 : [0, 18, 18],
+          }}
+          transition={{
+            duration: 2,
+            ease: "easeOut",
+          }}
+        />
+      </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="lg:text-center">
           <motion.p
@@ -78,7 +116,7 @@ export default function Features() {
             {features.map((feature, index) => (
               <motion.div
                 key={feature.name}
-                className="relative"
+                className="relative rounded-lg bg-card p-6 shadow-sm"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}

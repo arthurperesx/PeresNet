@@ -5,32 +5,32 @@
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 147 33% 15%;
+    --foreground: 232 25.2% 22.5%;
 
     --card: 0 0% 100%;
-    --card-foreground: 147 33% 15%;
+    --card-foreground: 232 25.2% 22.5%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 147 33% 15%;
+    --popover-foreground: 232 25.2% 22.5%;
 
-    --primary: 147 33% 15%;
+    --primary: 200 42.2% 41.4%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 93 54% 49%;
+    --secondary: 162 95% 31.6%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 147 33% 95%;
-    --muted-foreground: 147 33% 35%;
+    --muted: 160 55.3% 95%;
+    --muted-foreground: 0 0% 26.7%;
 
-    --accent: 93 54% 49%;
+    --accent: 178 98.9% 37.1%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 147 33% 90%;
-    --input: 147 33% 90%;
-    --ring: 93 54% 49%;
+    --border: 160 55.3% 88%;
+    --input: 160 55.3% 88%;
+    --ring: 178 98.9% 37.1%;
 
     --radius: 0.5rem;
   }
@@ -55,18 +55,18 @@
 }
 
 .text-peres {
-  color: #18301f;
+  color: #2b2f48;
 }
 
 .text-net {
-  color: #7dbb3d;
+  color: #049d6f;
 }
 
 .bg-peres {
-  background-color: #18301f;
+  background-color: #2b2f48;
 }
 
 .bg-net {
-  background-color: #7dbb3d;
+  background-color: #049d6f;
 }
 

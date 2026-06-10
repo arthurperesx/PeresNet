@@ -90,13 +90,36 @@ export default function Services() {
   return (
     <div className="bg-background py-16 sm:py-24 relative overflow-hidden" id="services">
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-       
         <motion.div
-          className="absolute -bottom-1/4 -right-1/4 w-1/2 h-1/2 bg-secondary-light rounded-full"
+          className="absolute -top-1/4 -left-1/4 h-80 w-80 rounded-full bg-secondary/10"
+          initial={{ scale: 1, rotate: 0 }}
+          animate={{
+            scale: animationComplete ? 1.18 : [1, 1.18, 1.18],
+            rotate: animationComplete ? 45 : [0, 45, 45],
+          }}
+          transition={{
+            duration: 2,
+            ease: "easeOut",
+          }}
+        />
+        <motion.div
+          className="absolute -bottom-1/4 -right-1/4 h-96 w-96 rounded-full bg-primary/5"
           initial={{ scale: 1, rotate: 0 }}
           animate={{
             scale: animationComplete ? 1.2 : [1, 1.2, 1.2],
             rotate: animationComplete ? -45 : [0, -45, -45],
+          }}
+          transition={{
+            duration: 2,
+            ease: "easeOut",
+          }}
+        />
+        <motion.div
+          className="absolute top-20 right-20 h-10 w-10 rounded-full bg-accent/10"
+          initial={{ y: 0, x: 0 }}
+          animate={{
+            y: animationComplete ? 18 : [0, 18, 18],
+            x: animationComplete ? -18 : [0, -18, -18],
           }}
           transition={{
             duration: 2,
@@ -120,7 +143,7 @@ export default function Services() {
           {serviceCategories.map((category, index) => (
             <motion.div
               key={category.name}
-              className="border border-border rounded-lg shadow-sm divide-y divide-border"
+              className="bg-card text-card-foreground rounded-lg shadow-sm"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}

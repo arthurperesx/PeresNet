@@ -14,16 +14,17 @@ export default function Footer() {
     <footer className="bg-background border-t border-border">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-10 md:gap-0 flex-col md:flex-row justify-between">
-            <div className="col-span-1 md:col-span-1">
-              <Link href="/" className="flex items-center">
+            <div className="col-span-1 flex flex-col items-center md:col-span-1 md:items-start">
+              <Link href="/" className="inline-flex items-center rounded-md bg-[#2b2f48] px-3 py-2 shadow-sm md:px-4">
                 <Image
                   src="/logo2.png"
                   alt="PeresNet Logo"
-                  width={150}
-                  height={40}
+                  width={180}
+                  height={54}
+                  className="max-h-12 w-auto object-contain md:max-h-14"
                 />
               </Link>
-              <div className="mt-4 flex space-x-6">
+              <div className="mt-4 flex w-full justify-center space-x-6 md:justify-center">
                 <Link
                   target="_blank"
                   href="https://www.instagram.com/peresnet/"
@@ -103,14 +104,14 @@ export default function Footer() {
                 <li className="flex items-center">
                   <Mail className="h-5 w-5 text-secondary mr-2" />
                   <span className="text-base text-muted-foreground">
-                    arthur@peresnet.com.br
+                    contato@peresnet.com.br
                   </span>
                 </li>
               </ul>
             </div>
           </div>
         <div className="mt-8 border-t border-border pt-8 md:flex md:items-center md:justify-between">
-          <p className="mt-8 text-base text-muted-foreground md:mt-0 md:order-1">
+          <p className="mt-8 text-base text-secondary md:mt-0 md:order-1">
             &copy; 2025 PeresNet. Todos os direitos reservados.
           </p>
         </div>
