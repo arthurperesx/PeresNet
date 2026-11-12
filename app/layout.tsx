@@ -6,7 +6,7 @@ import type React from "react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "PeresNet | Fornecimento de Tecnologia e Consultoria em TI",
+  title: "PeresNet | Fornecimento de Tecnologia e Consultoria em TI em Cuiabá",
   description: "Fornecimento de tecnologia e consultoria especializada em TI para empresas, organizações públicas e pessoas.",
 };
 
