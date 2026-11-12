@@ -6,8 +6,8 @@ import type React from "react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "PeresNet | Soluções de TI, Segurança e Microsoft 365 em Cuiabá",
-  description: "Otimize sua empresa com a PeresNet! Oferecemos gestão e suporte de TI, Microsoft 365, segurança digital e automação de processos. Atendimento especializado em Cuiabá.",
+  title: "PeresNet | Fornecimento de Tecnologia e Consultoria em TI",
+  description: "Fornecimento de tecnologia e consultoria especializada em TI para empresas, organizações públicas e pessoas.",
 };
 
 export default function RootLayout({
